@@ -1,2 +1,2 @@
-# Jerry_
-Official Website for Jerry_
+# Zinc Test Website
+Website for zINC
