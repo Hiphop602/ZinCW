@@ -7,12 +7,14 @@
     <title>Contact Form</title>
 </head>
 <body>
-    <form action="https://formsubmit.co/zincbotofficial@gmail.com" method="POST">
+    <form action="https://formsubmit.co/zincbotofficial@gmail.com" method="POST" enctype="multipart/form-data">
+        <input type="text" name="_honey" style="display:none">
         <input type="hidden" name="_subject" value="New submission!">
+        <input type="hidden" name="_template" value="table">
         <input type="hidden" name="_next" value="pages/thanks.html">
-        <input type="hidden" name="_webhook" value="https://discord.com/api/webhooks/928292786954985482/amwFsrp6IF-Wzu-ow7pxDdUMLJfhOhVbpZotHKQ4ETmEzAqxObIbn2fRpSdz_UANwh4T">
         <input type="email" name="email" placeholder="Email Address" required>
         <input type="text" name="name" placeholder="Message" required>
+        <input type="file" name="attachment" accept="image/png, image/jpeg">
         <button type="submit">Send</button>
     </form>
     
