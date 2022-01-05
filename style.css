@@ -9,7 +9,7 @@
 body
 {
     min-height: 100vh;
-    background: linear-gradient(#ff9400,#a04115);
+    background: linear-gradient(#11101D,#1d1b2c);
 }
 header
 {
@@ -23,13 +23,20 @@ header
     align-items: center;
     Z-index: 10000;
 }
+iframe
+{
+    border-radius: 20px;
+    margin-left: 80%;
+    margin-bottom: 0%;
+    margin-top: 10%;
+}
 header .logo
 {
     color: #fff;
     font-weight: 700;
     text-decoration: none;
     font-size: 2em;
-    text-transform: uppercase;
+    text-transform: none;
     letter-spacing: 2px;
     
 }
@@ -59,6 +66,26 @@ header ul li a.active
     background: #fff;
     color: #2b1055;
 }
+/* Scroll Bar */
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    margin-block: 8px;
+    /* background: black; */
+  }
+  
+  :hover::-webkit-scrollbar-thumb {
+    background: var(--scroll-color);
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: var(--scroll-color-hover);
+    border-radius: 10px;
+  }
+  /* Scroll Bar End */
 section
 {
     position: relative;
