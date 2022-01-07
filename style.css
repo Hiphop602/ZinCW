@@ -36,7 +36,7 @@ header .logo
     font-weight: 700;
     text-decoration: none;
     font-size: 2em;
-    text-transform: none;
+    text-transform: uppercase;
     letter-spacing: 2px;
     
 }
@@ -120,19 +120,13 @@ section img#moon
 .center {
     position: absolute;
     top: 45%;
-    left: 30%;
+    left: 40%;
     transform: translate(-50%, -50%);
-   }
-   .notice {
-     position: absolute;
-     top: 56%;
-     left: 37%;
-     transform: translate(-50%, -50%);
-   }
- 
-   .sectiontitle {
-     position: absolute;
-     top: 15%;
-     left: 50%;
-     transform: translate(-50%, -50%); 
-   }
+    font-size: xx-large;
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: none;
+    letter-spacing: 2px;
+}
